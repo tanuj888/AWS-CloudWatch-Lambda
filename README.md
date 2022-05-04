@@ -39,6 +39,8 @@ You will be using the following technologies and platforms to set up a DevOps en
    - Run the following command in the {TerraForm-directory} to initialize TerraForm and download plugins:
    - terraform init : Then run this command to deploy all the resources in the project folder:
    - terraform apply -auto-approve : That’s it! TerraForm will automatically deploy your Lambda function to AWS.
+   - The code will look something like this-
+   ![This is an image] (https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/terraform.JPG)
      
 8. Push the code in Github
  ````
