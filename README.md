@@ -25,7 +25,11 @@ You will be using the following technologies and platforms to set up a DevOps en
 5. Configure AWS CLI
 
 ## Steps Performed in the Project
-1. ### Create a directory in local machine and create  terraform files in it-
+1. Create an IAM User  and create a user with administrative privileges on both Amazon console and API
+2. Create Lambda function
+3. Create IAM Policy : Automatically create a policy file using the AWS policy generator.
+    - Under AWS Service select AWS CloudWatch Logs
+5. ### Create a directory in local machine and create  terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
      - Iam.tf to mentione the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
      
