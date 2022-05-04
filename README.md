@@ -1,7 +1,7 @@
 # AWS-CloudWatch-Lambda
 Crerate AWS cloudwatch lambda function by terraform
 
-![This is an image](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/Terraform.png)
+![This is an image](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/AWS-LAMBDA.JPG)
 ## Project Title -AWS-CloudWatch-Lambda-Terraform
 This project is used to deploy Infrastructure like AWS Lambda function,Iam role and policy,scheduled event to trigger lambda function through terraform and changing the retention period of cloudwatch log group through a python script.
 ## Project Description
