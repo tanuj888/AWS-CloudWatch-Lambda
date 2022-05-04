@@ -52,7 +52,6 @@ You will be using the following technologies and platforms to set up a DevOps en
 5. As soon you hit terraform apply, you'll see something like this in the AWS console.
 
    ![](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/LAMBDA_FN.JPG) 
-6. **Clean Up**
-7. **Clean Up Resources**
+6. **Clean Up Resources**
   * Use **Terraform destroy**  which will destroy the created infrastructure. 
 
