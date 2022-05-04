@@ -2,10 +2,10 @@
 Crerate AWS cloudwatch lambda function by terraform
 
 ![This is an image](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/Terraform.png)
-## Project Title -Terraform-with-CI-CD
-This project is used to deploy Infrastructure like VPC,subnets through terraform and automating it with the help of Jenkins CI/CD pipeline.
+## Project Title -AWS-CloudWatch-Lambda-Terraform
+This project is used to deploy Infrastructure like AWS Lambda function,Iam role and policy,scheduled event to trigger lambda function through terraform and changing the retention period of cloudwatch log group through a python script.
 ## Project Description
-This Project contains a full, real-world solution for setting up an environment using DevOps technologies and practices for deploying cloud services/cloud infrastructure like Virtual Private Cloud to AWS.
+This Project contains a full, real-world solution for setting up an environment using DevOps technologies and practices for deploying cloud services/cloud infrastructure like lambda function.
 ## Technology Used/Details
 You will be using the following technologies and platforms to set up a DevOps environment.
 1. AWS 
