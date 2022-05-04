@@ -1,4 +1,4 @@
-# AWS-CloudWatch-Lambda
+# AWS-CloudWatch-Lambda function-Terraform
 Crerate AWS cloudwatch lambda function by terraform
 
 ![This is an image](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/AWS-LAMBDA.JPG)
