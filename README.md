@@ -14,10 +14,10 @@ You will be using the following technologies and platforms to set up a DevOps en
    - To store the application and infrastructure/automation code
 3. Terraform
    - To automate the infrastructure deployment on AWS 
-4. Jenkins CI/CD
-    - Used Jenkins  to create CI and CD pipeline
-5. Git bash
-    - This tool is ues to SSH in EC2 instance and to push local files to git hub
+4. Python boto3
+    - Used python boto 3 script to automate the retention period of cloudwatch loggroup
+5. S3
+    - This tool is used to save terraform state file and enable versioning.
 ## Prerequisites
 1. **AWS EC2** linux/ubuntu instance
 2. Configure **Jenkins** on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
