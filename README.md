@@ -23,7 +23,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 2. Create python boto 3 script on pycharm editor or any editor.
 3. Configure Iam Lambda role, policy, S3 backend, cloudwatch event and lambda function on terraform.
 5. Configure AWS CLI
-7. Create an **IAM role** with full **administrative access** and attach it to the EC2 instance.
+
 ## Steps Performed in the Project
 1. ### Create a directory in local machine and create two terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
@@ -40,36 +40,7 @@ You will be using the following technologies and platforms to set up a DevOps en
  ````
 3. Create a new pipeline Project in Jenkins
 4. Mentioned the stages in the groovy script
-````
-pipeline{
-    agent any
-    tools {
-        terraform 'terraform-11'
-    }
-    stages{
-        stage('Git Checkout'){
-           steps{  
-                git credentialsId: '30c1c3e9-2949-4138-971d-xxxxxxxx', url: 'https://github.com/tanuj888/Terraform-with-CI-CD'
-            } 
-        }
-        stage('Terraform init'){
-            steps{  
-               sh 'terraform init'
-            }
-        }
-        stage('Terraform Apply'){
-            steps{  
-               sh 'terraform apply --auto-approve'
-            }
-        }
-        stage('Terraform Destroy'){
-            steps{  
-               sh 'terraform destroy --auto-approve'
-            } 
-        }
-    }    
-}
-````
+
  
 5. As soon you hit save, click on build now to build this pipeline.
 
