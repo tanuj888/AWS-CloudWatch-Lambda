@@ -26,10 +26,22 @@ You will be using the following technologies and platforms to set up a DevOps en
 
 ## Steps Performed in the Project
 1. Create an IAM User  and create a user with administrative privileges on both Amazon console and API
-2. Create Lambda function
-3. Create IAM Policy : Automatically create a policy file using the AWS policy generator.
+2. Create Lambda function:
+    - Create a directory for your project and name a function e.g. "Hello.py"
+4. Create IAM Policy : Automatically create a policy file using the AWS policy generator.
     - Under AWS Service select AWS CloudWatch Logs
-5. ### Create a directory in local machine and create  terraform files in it-
+5. Create Terraform Resources:
+6. To enable TerraForm to deploy Lambda functions, you need to create three .tf files in the \lambda-test\ project folder:
+    - iam-lambda.tf – defines two TerraForm resources and assigns the IAM policies to them
+    - provider.tf – defines AWS as a TerraForm provider
+    - lambda.tf – defines the Lambda function as a TerraForm resource
+7. Deploy the Lambda function to AWS:
+   - Run the following command in the {TerraForm-directory} to initialize TerraForm and download plugins:
+     terraforminit
+     Then run this command to deploy all the resources in the project folder:
+     terraform apply -auto-approve
+     That’s it! TerraForm will automatically deploy your Lambda function to AWS.
+9. ### Create a directory in local machine and create  terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
      - Iam.tf to mentione the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
      
