@@ -25,9 +25,9 @@ You will be using the following technologies and platforms to set up a DevOps en
 5. Configure AWS CLI
 
 ## Steps Performed in the Project
-1. ### Create a directory in local machine and create two terraform files in it-
+1. ### Create a directory in local machine and create  terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-     - VPC.tf to mentione the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
+     - Iam.tf to mentione the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
      
 2. ### Push the code in Github
  ````
@@ -42,7 +42,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 4. Mentioned the stages in the groovy script
 
  
-5. As soon you hit save, click on build now to build this pipeline.
+5. As soon you hit terraform apply, you'll see something like this in the AWS console.
 
    ![](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/LAMBDA_FN.JPG)
 6. Go to your AWS Console and you'll find a new VPC created. 
