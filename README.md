@@ -53,5 +53,5 @@ You will be using the following technologies and platforms to set up a DevOps en
 
    ![](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/LAMBDA_FN.JPG) 
 6. **Clean Up Resources**
-  * Use **Terraform destroy**  which will destroy the created infrastructure. 
+7. **Terraform destroy**  which will destroy the created infrastructure. 
 
