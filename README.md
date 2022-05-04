@@ -1,34 +1,6 @@
 # AWS-CloudWatch-Lambda
-Crerate AWS cloudwatch lambda function bny terraform
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@tanuj888 
-tanuj888
-/
-Terraform-with-CI-CD
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Update README.md
- main
-@tanuj888
-tanuj888 committed on Jan 9 
-1 parent 0fa50a5 commit d4795e27e4b02e7399017d27495a529ed5e12117
-Showing  with 1 addition and 1 deletion.
-  2  
-README.md
+Crerate AWS cloudwatch lambda function by terraform
+
 ![This is an image](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/Terraform.png)
 ## Project Title -Terraform-with-CI-CD
 This project is used to deploy Infrastructure like VPC,subnets through terraform and automating it with the help of Jenkins CI/CD pipeline.
