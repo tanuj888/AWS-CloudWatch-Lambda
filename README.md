@@ -37,9 +37,9 @@ You will be using the following technologies and platforms to set up a DevOps en
     - lambda.tf – defines the Lambda function as a TerraForm resource
 7. Deploy the Lambda function to AWS:
    - Run the following command in the {TerraForm-directory} to initialize TerraForm and download plugins:
-     terraforminit
+   - terraforminit
      Then run this command to deploy all the resources in the project folder:
-     terraform apply -auto-approve
+   - terraform apply -auto-approve
      That’s it! TerraForm will automatically deploy your Lambda function to AWS.
 9. ### Create a directory in local machine and create  terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
