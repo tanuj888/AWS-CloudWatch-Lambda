@@ -19,12 +19,10 @@ You will be using the following technologies and platforms to set up a DevOps en
 5. S3
     - This tool is used to save terraform state file and enable versioning.
 ## Prerequisites
-1. **AWS EC2** linux/ubuntu instance
-2. Configure **Jenkins** on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
-3. Install necessay plugin on Jenkins like **Terraform, Github**.
-4. **Install Terraform** on the same EC2 instance by following the steps mentioned [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-5. **Install git** on the instance by `sudo yum install git -y`
-6. Integrate/Configure **Github with Jenkins** by following the steps [here](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)
+1. Install terraform on your local or virtual machine.
+2. Create python boto 3 script on pycharm editor or any editor.
+3. Configure Iam Lambda role, policy, S3 backend, cloudwatch event and lambda function on terraform.
+5. Configure AWS CLI
 7. Create an **IAM role** with full **administrative access** and attach it to the EC2 instance.
 ## Steps Performed in the Project
 1. ### Create a directory in local machine and create two terraform files in it-
