@@ -44,29 +44,9 @@ You will be using the following technologies and platforms to set up a DevOps en
  
 5. As soon you hit save, click on build now to build this pipeline.
 
-   ![](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/build.JPG)
+   ![](https://github.com/tanuj888/AWS-CloudWatch-Lambda/blob/main/LAMBDA_FN.JPG)
 6. Go to your AWS Console and you'll find a new VPC created. 
 7. **Clean Up**
 7. **Clean Up Resources**
   * Add a step **Terraform destroy** in the pipeline as mentioned in the scipt above which will destroy the created infrastructure. 
-0 comments on commit d4795e2
-@tanuj888
- 
- 
-Leave a comment
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
- You’re receiving notifications because you’re watching this repository.
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Copied!
+
